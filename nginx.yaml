@@ -48,6 +48,7 @@ spec:
   selector:
     matchLabels:
       app: nginx
+      version: v1
   replicas: 3
   template:
     metadata:
@@ -80,6 +81,7 @@ spec:
   selector:
     matchLabels:
       app: nginx
+      version: v2
   replicas: 3
   template:
     metadata:
